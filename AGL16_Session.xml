@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="tair10" locus="NC_003074.8:21166171-21190963" version="8">
+    <Resources>
+        <Resource path="C:\Users\Jack\Documents\GitHub\CS525-Bioinformatics\database\AGL16_rpgc_chr.wig.gz" type="wig"/>
+        <Resource path="C:\Users\Jack\Documents\GitHub\CS525-Bioinformatics\database\AGL16.chr.all.bed" type="bed"/>
+    </Resources>
+    <Panel height="520" name="DataPanel" width="1688">
+        <Track attributeKey="AGL16.chr.all.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="C:\Users\Jack\Documents\GitHub\CS525-Bioinformatics\database\AGL16.chr.all.bed" name="AGL16.chr.all.bed" visible="true"/>
+        <Track attributeKey="AGL16_rpgc_chr.wig.gz" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="C:\Users\Jack\Documents\GitHub\CS525-Bioinformatics\database\AGL16_rpgc_chr.wig.gz" name="AGL16_rpgc_chr.wig.gz" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="256" name="FeaturePanel" width="1688">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="RefSeq Genes" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;2034.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/genes/GCF_000001735.3_TAIR10.ncbiRefSeq.gtf.gz" name="RefSeq Genes" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.6666666666666666"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
